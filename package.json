@@ -1,0 +1,25 @@
+{
+  "name": "chat-node-socket-sql-html",
+  "version": "1.0.0",
+  "description": "Chat en tiempo real con Node.js, Socket.io, SQL, HTML y CSS.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "dependencies": {
+    "express": "4.19.2",
+    "morgan": "1.10.0",
+    "socket.io": "4.7.5"
+  }
+}
